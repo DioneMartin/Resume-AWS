@@ -6,7 +6,7 @@ pkill -f ngrok
 
 # Ir al directorio del repositorio y actualizar la aplicación
 echo "Actualizando el repositorio..."
-cd /var/www/Resume-AWS || exit
+cd /var/www/html/Resume-AWS || exit
 git pull 
 
 # Encender NGINX
